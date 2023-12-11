@@ -12,6 +12,7 @@ const app = express();
 
 app.use(express.json());
 const port = process.env.PORT;
+console.log("hello")
 
 // app.use("/api/user", userRoutes);
 // app.use("/api/course", courseRoutes);
